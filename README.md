@@ -9,7 +9,7 @@
 репозиторію свого проекту. Для цього натисни на кнопку `«Use this template»` і
 обери опцію `«Create a new repository»`, як показано на зображенні.
 
-![Creating repo from a template step 1](./assets/template-step-1.png)
+![Creating repo from a tem plate step 1](./assets/template-step-1.png)
 
 На наступному етапі відкриється сторінка створення нового репозиторію. Заповни
 поле його імені, переконайся, що репозиторій публічний, після чого натисни
