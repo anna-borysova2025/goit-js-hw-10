@@ -1,0 +1,86 @@
+.main-title {
+  margin-bottom: 16px;
+  font-size: 28px;
+  color: #333;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 360px;
+}
+.form-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 800px;
+}
+
+.form label {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  font-weight: 500;
+  color: #555;
+}
+
+.form input[type='number'] {
+  padding: 10px 12px;
+  border: 1px solid #ccc;
+  border-radius: 12px;
+  font-size: 16px;
+  outline: none;
+  transition: border-color 0.2s;
+}
+
+.form input[type='number']:focus {
+  border-color: #4e75ff;
+}
+
+fieldset {
+  border: 1px solid #ccc;
+  border-radius: 12px;
+  padding: 12px 16px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 12px;
+  background-color: #f9f9f9;
+}
+
+fieldset legend {
+  padding: 0 8px;
+  font-weight: 500;
+  color: #333;
+}
+
+fieldset label {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+input[type='radio'] {
+  width: 18px;
+  height: 18px;
+  accent-color: #4e75ff;
+}
+
+.form button {
+  padding: 12px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #fff;
+  background-color: #4e75ff;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+  margin-top: 16px;
+}
+
+.form button:hover {
+  background-color: #3b5ed1;
+}
